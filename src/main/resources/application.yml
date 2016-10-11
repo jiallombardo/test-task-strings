@@ -1,0 +1,10 @@
+#http access
+server:
+    port: 8081
+    ssl:
+        enabled: false
+
+#service-specific configuration
+string:
+    word.separator: "[\\s,]+"
+    processing.limit: 5
